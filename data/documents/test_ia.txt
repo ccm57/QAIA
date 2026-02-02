@@ -1,0 +1,27 @@
+# Intelligence Artificielle
+
+L'intelligence artificielle (IA) est un ensemble de technologies qui permettent à des ordinateurs d'accomplir des tâches qui nécessitent normalement l'intelligence humaine.
+
+## Types d'IA
+
+1. **IA Faible (ou étroite)** : Conçue pour une tâche spécifique, comme la reconnaissance vocale.
+2. **IA Générale** : Capable de comprendre, apprendre et appliquer ses connaissances à différentes tâches.
+3. **IA Forte (ou super IA)** : Une IA théorique qui surpasserait l'intelligence humaine.
+
+## Applications courantes
+
+- Assistants virtuels (Siri, Alexa)
+- Voitures autonomes
+- Systèmes de recommandation
+- Analyse prédictive
+- Reconnaissance d'images et de parole
+
+## Techniques importantes
+
+- Apprentissage automatique (Machine Learning)
+- Apprentissage profond (Deep Learning)
+- Traitement du langage naturel (NLP)
+- Vision par ordinateur
+- Robotique
+
+Les grands modèles de langage comme GPT, BERT, et Phi-3 utilisent des architectures de transformers pour générer du texte et comprendre le langage naturel.

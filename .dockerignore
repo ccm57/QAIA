@@ -1,0 +1,30 @@
+.venv
+__pycache__/
+*.py[cod]
+
+# Logs et données temporaires
+logs/
+data/audio/
+backups/
+*.log
+
+# Modèles volumineux (à monter en volume depuis l’hôte)
+models/
+
+# Cache Python / outils
+.pytest_cache/
+.cache/
+
+# VCS / IDE
+.git
+.gitignore
+.github/
+.cursor/
+.vscode/
+.idea/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+

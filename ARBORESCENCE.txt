@@ -1,0 +1,105 @@
+.
+├── agents
+│   ├── audio_manager.py          # Gestion audio bas niveau
+│   ├── context_manager.py        # Gestion du contexte conversationnel
+│   ├── __init__.py
+│   ├── intent_detector.py        # Détection d'intentions
+│   ├── llm_agent.py              # Agent LLM Phi-3
+│   ├── rag_agent.py              # Agent RAG (recherche dans la base de documents)
+│   ├── speaker_auth.py           # Authentification vocale / profils
+│   ├── speech_agent.py           # Synthèse vocale / TTS
+│   ├── vad_engine.py             # Détection d'activité vocale (VAD)
+│   ├── voice_identity/           # Identité vocale (3 couches)
+│   │   ├── embedding_extractor.py    # Extraction d'empreinte vocale
+│   │   ├── profile_manager.py        # Gestionnaire de profils vocaux
+│   │   └── identity_service.py       # Service d'intégration conversationnelle
+│   └── wav2vec_agent.py          # Agent STT wav2vec2
+├── ARBORESCENCE.txt
+├── assets
+│   ├── icons
+│   └── sounds
+├── backups
+│   └── agents
+├── CHANGELOG.md
+├── config
+│   ├── config_manager.py
+│   ├── config_validator.py
+│   ├── logging_config.py
+│   ├── setup_logging.py
+│   └── system_config.py
+├── data
+│   ├── audio
+│   ├── database.py
+│   ├── documents
+│   ├── embeddings
+│   ├── qaia.db
+│   ├── vector_db/                # Base vectorielle ChromaDB
+│   └── voice_profiles/           # Profils vocaux (embeddings .npy)
+├── docs
+│   ├── AI_INTEGRATION.md                 # Documentation intégration IA
+│   ├── DATABASE_SCHEMA.md                # Schéma de base de données
+│   ├── GPU_SETUP.md                      # Configuration GPU/CUDA
+│   ├── INTERFACE_V2_VALIDATION.md        # Critères et scénarios de validation UI V2
+│   ├── TEST_CAMPAIGN_V2.md              # Campagne de tests V2
+│   ├── CLEANUP_AUDIT.md                  # Audit de nettoyage
+│   ├── MODULES_FUTURS.md                # Modules préparés pour usage futur
+│   ├── decommission_old_interface.md     # Plan de décommission de l'ancienne interface
+│   └── archive/                          # Documentation historique archivée
+├── examples
+├── interface
+│   ├── __init__.py
+│   ├── qaia_interface.py         # Interface V2 principale (CustomTkinter)
+│   ├── components                # Composants UI réutilisables (charts, logs, streaming, etc.)
+│   └── events                    # Event bus pour la communication UI ↔ core
+├── launcher.py
+├── launch_qaia.sh
+├── LICENSE
+├── logs
+│   ├── archive
+│   ├── backup
+│   ├── monitoring
+│   ├── performance
+│   └── voice_metrics.json
+├── models
+│   ├── piper
+│   └── wav2vec2-large-xlsr-53-french.FLAX_BACKUP
+├── qaia_core.py                  # Cœur de QAIA (orchestration LLM/RAG/STT/TTS)
+├── README.md
+├── requirements.txt
+├── save_qaia.py
+├── scripts
+│   ├── benchmark_pipeline.py
+│   ├── migrate_backups.py
+│   ├── rotate_purge_backups.py
+│   ├── test_audio_pipeline.py
+│   ├── test_audio_recording.py
+│   ├── test_latence_optimisee.py
+│   ├── test_voix_feminine.py
+│   └── verify_environment.py
+├── test_qaia.sh
+├── tests
+│   ├── manual_transcribe.py
+│   ├── test_agents_initialization.py
+│   ├── test_audio_system.py
+│   ├── test_conversation_flow.py
+│   ├── test_conversation_mode.py
+│   ├── test_llm_agent_chat.py
+│   ├── test_llm_agent.py
+│   └── test_performance.py
+└── utils
+    ├── agent_manager.py
+    ├── backup_manager.py
+    ├── clean_ram.py
+    ├── embedding_cache.py
+    ├── encoding_utils.py
+    ├── event_system.py
+    ├── health_monitor.py
+    ├── log_manager.py
+    ├── memory_manager.py
+    ├── metrics_collector.py
+    ├── monitoring.py
+    ├── performance_metrics.py
+    ├── security.py
+    └── version_manager.py
+
+28 directories, 69 files

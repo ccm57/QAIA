@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environnements virtuels
+venv/
+env/
+ENV/
+.venv/
+
+# Secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/*.log
+logs/*.json
+logs/performance/*.json
+logs/archive/**/*.json
+!logs/.gitkeep
+
+# Données temporaires
+*.tmp
+*.temp
+data/audio/*.wav
+!data/audio/.gitkeep
+
+# Modèles (trop volumineux pour Git)
+models/*.gguf
+models/*.bin
+models/*.pt
+models/*.onnx
+models/huggingface_cache/
+models/torch_cache/
+
+# Base de données (peut contenir des données sensibles)
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Backups
+backups/
+*.backup
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Cache
+.cache/
+*.cache
